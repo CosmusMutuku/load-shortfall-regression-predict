@@ -1,0 +1,23 @@
+Train_df
+
+There are 49 columns with the target feature. One unamed column that mimics the index. 
+Columns:
+1. Time
+2. Wind speed for 5 cities
+3. Wind degree for 3 cities 
+4. Rain in 1 hour for four cities
+5. Humidity for 3 cities
+6. clouds all for 3 cities
+7. Pressure for 5 cities
+8. Rain in 3 hours for 2 cities
+9. Weather id for 4 cities
+10. maximum temperature for 5 cities
+11. temperature for 5 cities 
+12. minimum temperature for 5 cities
+13. Snow in 3 hours for 2 cities
+14. load shortfall in 3 hours interval the target feature. 
+
+Train_df = 8763 rows and 49
+test_df = 2920 rows and 48 colums
+
+mlr_submission. RMSE = 4860
