@@ -1,4 +1,6 @@
 """
+
+
     Helper functions for the pretrained model to be used within our API.
     Author: Explore Data Science Academy.
     Note:
@@ -75,7 +77,7 @@ def _preprocess_data(data):
 
     return predict_vector
 
-def load_model(assets/trained-models/Team_2_regression_model.pkl:str):
+def load_model(path_to_model:str):
     """Adapter function to load our pretrained model into memory.
     Parameters
     ----------
@@ -88,7 +90,7 @@ def load_model(assets/trained-models/Team_2_regression_model.pkl:str):
     <class: sklearn.estimator>
         The pretrained model loaded into memory.
     """
-    return pickle.load(open(assets/trained-models/Team_2_regression_model.pkl, 'rb'))
+    return pickle.load(open(path_to_model, 'rb'))
 
 
 """ You may use this section (above the make_prediction function) of the python script to implement 
